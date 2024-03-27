@@ -22,8 +22,16 @@ First we load the data in our colab notebook. We explore and clean the data befo
 Exploring the data showed several inconsistencies and errors that need to be cleaned
 
 ### Data Cleaning
-This involved ...
+- Observing the data: number of rows and columns, data types of the variables
+- Checking for duplicates.
+- Identifying missing values, addressing these with a placeholder value.
+- Finding and fixing inconsistent categories of data (for example: Y, y, Yes, YES so that they are consistent).
+- Summary statistics of numeric variables (min, max, mean).
 
 ### Exploratory Visualisation using both univariate and multivariate plots
-Here we used .. to observe the data.
+- Histograms to view the distributions of numerical features in your dataset.
+- Boxplots to view statistical summaries of numerical features in your dataset.
+- Countplots to view the frequency of each class of categorial features in your dataset.
+- Heatmap to view the correlation between features.
+- Regression to explore the variables with some correlation.
 
